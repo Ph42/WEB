@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			.header, .footer{colspan:;}
+			.all{
+				
+				border-collapse: collapse;
+				width:100%;
+				height:1000px;
+			}
+			.all>*{
+				vertical-align:top;
+			} 
+
+			.header{
+				background-color: #456;
+				height:200px;
+			}
+
+			.footer{
+				background-color: #456;
+				height:200px;
+			}
+
+			.leftside{
+				background-color:#c15;
+				width:150px;
+
+			}		
+
+			.content{							
+				background-color: #c74;
+			}
+
+			.space1{
+				background-color: none;
+				width:30px;
+
+			}
+			.vspace1{
+				background-color: none;
+				height:20px;
+			}
+			
+
+		</style>
+
+	</head>
+	<body>		
+		<table class="all">
+			<tr>
+				<td class="header">
+					<table>
+						<tr></tr>
+					</table>
+				</td>				
+			</tr>
+			<tr class="vspace1">
+				
+			</tr>
+			<tr>				
+				<td class="leftside">
+					Side
+				</td>
+				<td class="space1">
+					
+				</td>
+				<td class="content">
+					 Content
+				</td>
+
+			</tr>
+			<tr class="vspace1">
+				
+			</tr>
+			<tr>
+				<td class="footer">
+					<table>
+						<tr></tr>
+					</table>
+				<td>
+			</tr>>
+
+		</table>
+
+		
+		
+	</body>
+
+</html>
