@@ -1,0 +1,29 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="./style_1.css">
+		<style>
+
+
+		</style>
+
+	</head>
+	<body>	
+		<div class="wrap">	
+			<div class="head">
+				Head
+			</div>	
+			<div class="side1">
+				Side1
+			</div>
+			<div class="content">
+				Content
+			</div>
+			<div class="foot">
+				Foot
+			</div>
+		</div>
+	</body>
+
+</html>
