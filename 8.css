@@ -1,0 +1,93 @@
+* {
+	padding:0;
+	border:0;
+	margin:0;
+	font-family: sans-serif;
+
+	
+	opacity: 0.8
+}
+body {	
+background-image: url(./02780.jpg);
+
+}
+.wrap{
+	position:relative;
+	margin: 0 auto;
+	width:1000px;
+	
+}
+.head{
+	position:relative;
+	margin: 0 0 0 0;
+	height: 142px;	
+	background-color: #654ddd;
+	
+}
+.promo{
+	position:relative;
+	
+	margin: 0 0 0 0;
+	background-color: #cba;
+	
+}
+.slogan {
+	position:relative;
+	
+	
+	margin: 0;
+	
+	background-color: #add;
+	
+}
+.B_SignIn {
+	position:relative;		
+	margin: 0;
+	display: inline-block;
+	height:200px;
+	background-color: #157;
+	
+}
+.B_SignUp {
+	position:relative;		
+	margin: 0;
+	display: inline-block;	
+	height:200px;
+	background-color: #149;
+	
+}
+
+.centered{
+	margin: ;
+
+
+
+}
+.leftSideNotif {
+	position:relative;		
+	margin: 0;
+	height:200px;
+	background-color: #374;
+	
+}
+.GooglePlay {
+	position:relative;		
+	margin: 0;
+	height:200px;
+	background-color: #183;
+	
+}
+.preFoot {
+	position:relative;		
+	margin: 20 auto 0;
+	height:200px;
+	background-color: #176;
+	
+}
+.foot {
+	position:relative;		
+	margin: 20 auto 0;
+	height:200px;
+	background-color: #276;
+	
+}
