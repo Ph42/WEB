@@ -1,0 +1,42 @@
+* {
+	padding:0;
+	border:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+.wrap{
+	position:relative;
+	margin: 0 auto;
+	width:960px;
+}
+.head{
+	position:relative;
+	margin: 0 auto 20;
+	height: 300px;	
+	background-color: #654ddd;
+	
+}
+.side1{
+	position:relative;
+	display: inline-block;
+	margin: 0 0 0 0;
+	background-color: #abcddd;
+	width:300;
+}
+.content {
+	position:relative;
+	left:320;
+	display: inline-block;
+	margin: 0;
+	width:640;
+	background-color: #bc54dd;
+	
+}
+.foot {
+	position:relative;		
+	margin: 20 auto 0;
+	height:200px;
+	background-color: #bcaddd;
+	
+}
