@@ -1,93 +1,98 @@
 * {
+	position:relative;
 	padding:0;
 	border:0;
 	margin:0;
 	font-family: sans-serif;
-
+	width:100%;
 	
 	opacity: 0.8
 }
 body {	
 background-image: url(./02780.jpg);
-
+background-repeat: no-repeat;
+background-attachment: scroll;
 }
 .wrap{
-	position:relative;
 	margin: 0 auto;
 	width:1000px;
 	
 }
-.head{
-	position:relative;
+.head{	
 	margin: 0 0 0 0;
 	height: 142px;	
 	background-color: #654ddd;
 	
 }
-.promo{
-	position:relative;
-	
+.promo{	
 	margin: 0 0 0 0;
+	height: 260px;
 	background-color: #cba;
 	
 }
-.slogan {
-	position:relative;
-	
-	
+div.slogan {	
+	margin-left:10%;
+	width:50%;
 	margin: 0;
 	
 	background-color: #add;
 	
 }
-.B_SignIn {
-	position:relative;		
-	margin: 0;
+p.slogan {	
+	margin-left:10%;
+	font-size: 100%;
+
+}
+
+p.slogan span {	
+	font-weight: bold; 
+
+
+
+}
+
+.B_SignIn {	
+	margin-left: 33.3%;
 	display: inline-block;
-	height:200px;
+	height: 200px;
 	background-color: #157;
+	width: 14%;
 	
 }
-.B_SignUp {
-	position:relative;		
-	margin: 0;
+.B_SignUp {	
+	margin-left: 2.7%;
 	display: inline-block;	
-	height:200px;
+	height: 200px;
 	background-color: #149;
+	width: 14%;
 	
 }
 
 .centered{
-	margin: ;
-
-
+	margin: 0;
 
 }
 .leftSideNotif {
-	position:relative;		
 	margin: 0;
 	height:200px;
 	background-color: #374;
 	
 }
 .GooglePlay {
-	position:relative;		
 	margin: 0;
 	height:200px;
 	background-color: #183;
 	
 }
-.preFoot {
-	position:relative;		
-	margin: 20 auto 0;
+.preFoot {	
+	margin: 0;
 	height:200px;
 	background-color: #176;
 	
 }
-.foot {
-	position:relative;		
-	margin: 20 auto 0;
+.foot {	
+	margin: 0;
 	height:200px;
-	background-color: #276;
+	background-color: #789;
 	
 }
