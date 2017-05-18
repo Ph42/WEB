@@ -1,0 +1,99 @@
+* {
+	position:relative;
+	padding:0;
+	border:0;
+	margin:0;
+	width:100%;
+	font-family: sans-serif;
+	font-size: 14px;
+	
+	
+	opacity: 0.8
+}
+body {	
+background-image: url(./02780.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+}
+.wrap{
+	margin: 0 auto;
+	width:1000px;
+	
+}
+.head{	
+	margin: 0 0 0 0;
+	height: 142px;	
+	background-color: #654ddd;
+	
+}
+.promo{	
+	margin: 0 0 0 0;
+	height: 260px;
+	background-color: #cba;
+	
+}
+div.slogan {	
+	margin-left:10%;	
+	width:;
+	margin: 0;
+	
+	background-color: #add;
+	
+}
+p.slogan {	
+	margin-left:10%;
+	font-size: 2.5em;
+
+}
+
+
+p.slogan span {	
+	font-weight: bold;
+
+}
+
+.B_SignIn {	
+	margin-left: 34.5%;
+	display: inline-block;
+	height: 200px;
+	background-color: #157;
+	width: 14%;
+	
+}
+.B_SignUp {	
+	margin-left: 2.7%;
+	display: inline-block;	
+	height: 200px;
+	background-color: #149;
+	width: 14%;
+	
+}
+
+.centered{
+	margin: 0;
+
+}
+.leftSideNotif {
+	margin: 0;
+	height:200px;
+	background-color: #374;
+	
+}
+.GooglePlay {
+	margin: 0;
+	height:200px;
+	background-color: #183;
+	
+}
+.preFoot {	
+	margin: 0;
+	height:200px;
+	background-color: #176;
+	
+}
+.foot {	
+	margin: 0;
+	height:200px;
+	background-color: #789;
+	
+}
