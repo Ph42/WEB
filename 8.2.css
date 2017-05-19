@@ -10,8 +10,8 @@
 	font-style: normal;
 	font-variant: normal;
 	background-color: transparent;
-	
-	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-attachment:scroll;	
 }
 a.link, a.visited, a.hover, a.active, a{ 
 	color:unset;
@@ -21,9 +21,7 @@ a.link, a.visited, a.hover, a.active, a{
 	font-family: unset;
 	}
 body {	
-	background-image: url(./full.png);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-image: url(./full.png);	
 }
 .wrap{
 	margin: 0 auto;
@@ -33,12 +31,11 @@ body {
 .head{	
 	margin: 0 0 0 0;
 	height: 142px;	
-	background-color: #654ddd;
+	
 	
 }
 .head > div {
-	display: inline-block;	
-	background-color:#487596;
+	display: inline-block;
 	width: 8%;
 	height:5%;	
 }
@@ -69,8 +66,7 @@ body {
 	border: 2px;
 }
 .home p{
-	font-weight: bold;
-	moz-border-bottom
+	font-weight: bold;	
 }
 
 span{	
@@ -222,15 +218,13 @@ div.promo.left p:active, div.promo.right p:active{
 
 div.slogan{	
 	margin-left:7%;		
-	margin-top:7%;
-	
-	background-color: #add;
-	
+	margin-top:7%;	
 }
 p.slogan{		
 	font-size: 2.5em;
 	font-family: Tahoma,sans-serif;
 	font-stretch: condensed;
+	word-spacing: 15%;
 	color:#787878;
 }
 
@@ -239,22 +233,21 @@ p.slogan span{
 	font-weight: bold;	
 	font-family:inherit;
 	font-size:inherit;
+	word-spacing: inherit;
 
 }
 
 div.B_SignIn{	
 	margin-left: 34.5%;
 	display: inline-block;
-	height:;
-	background-color: #157;
+	height:;	
 	width: 16%;
 	
 }
 div.B_SignUp{	
 	margin-left: 0.3%;
 	display: inline-block;	
-	height:;
-	background-color: #149;
+	height:;	
 	width: 16%;
 	
 }
@@ -311,24 +304,36 @@ a.B_SignIn{
 
 }
 
+.iPhone {	
+	width:100%;
+	background-image: url(./iPhone.png);	
+	background-position: right; 
+	border: 1px;
+	border-color: transparent;
+	height: 500px;
+
+}
+
 .leftSideNotif{
 	margin-top: 18%;
-	height:200px;
-	background-color: #374;
-	width:33%;
+	height:200px;	
+	width:37%;
 }
 .leftSideNotif h1{
 	font-size:2.5em;	
 	font-family: Verdana, sans-serif;
 	font-weight: lighter;
 	font-stretch: ultra-condensed;
+	word-spacing: 0.5%;
+
 }
 .leftSideNotif p{
 	font-size:1.2em;	
 	font-family: Verdana, sans-serif;
 	font-weight: lighter;	
 	margin-top:6%;
-	line-height: 1.8em;
+	line-height: 1.9em;
+	word-spacing: 2%;
 }
 
 .GooglePlay {
@@ -339,75 +344,66 @@ a.B_SignIn{
 }
 .GooglePlay p{
 	margin: 0;
-	height:25%;
-			
+	height:25%;			
 	background-image: url(./Google-Play.png);
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	
 }
 .GooglePlay p span{
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
-.iPhone {	
-	background-image: url(./iPhone.png);
-	background-attachment: scroll;
-	background-repeat: no-repeat;	
-	background-position: 5% 0%  0% 40%; 
-	border: 1px;
-	border-color: transparent;
 
-}
 
 .preFoot{	
-	margin-top:16%;
-	height:170px;
-	background-color: #176;
+	margin-top:6%;
+	height:170px;	
 	border: 1px;
-	border-color: transparent;
-	
+	border-color: transparent;	
 }
 
-.preFoot div{
+
+.preFoot .d1{
 	display: inline-block;
-}
-.preFoot.d1{
-	margin-top:6%;
-	padding-top: 30%;
-	width: 85%;	
-	background-color: #768542;
+	margin-top:7%;
+	width: 80%;		
 	border: 1px;
 	border-color: transparent;
+	z-index: 5;
 }
-.preFoot.d1 p{		
-	color:#000;
-	font-size:2em;	
+.preFoot .d1 p{		
+	color:#787878;
+	font-size:1.9em;	
 	font-family: Verdana, sans-serif;
 	font-weight: lighter;	
 	font-stretch: ultra-condensed;	
-	width: 85%;
-	line-height: 1.8em;
-	background-color: #768542;
+	width: 100%;	
+	word-spacing: 0.1%;
 }
-.preFoot.d2{	
+
+div.B_GET_NOW{
+	display: inline-block;
+	float: right;	
 	margin-top:6%;
-	width: 10%;	
-	line-height: 1.8em;
-	background-color: #768542;
+	padding:0;
+	width: 14%;	
 	border: 1px;
 	border-color: transparent;
+	z-index: 10;
 }
-.B_GET_NOW{
-	
+
+a.B_GET_NOW{
+float: right;	
 	text-decoration:none;
 	text-align:center;
-	padding:0.5% 0.5%;
+	padding: 10% 0% ;
 	border:solid 2px #F17F03;
 	border-radius: 6px;
-	font:135% Arial, sans-serif;
-	font-weight:bold;
-	color:#ffffff; 
+	font:135% Arial, sans-serif !important;
+	font-weight:bolder ;
+	font-stretch: ultra-condensed;
+	word-spacing: 0.1%;	
+	color:#fff !important; 
 	background-color:#feb953;
 	background-image: -moz-linear-gradient(top, #feb953 0%, #f78e05 100%);
 	background-image: -webkit-linear-gradient(top, #feb953 0%, #f78e05 100%);
@@ -423,10 +419,47 @@ a.B_SignIn{
 .foot{	
 	margin: 0;
 	height:200px;
-	background-color: #789;
+}
+.foot div{	
+	display: inline-block;	
+	width:12%;
+	height:35%;
+	margin-left:2%;	
+}
+
+.foot .left{
+	float:left;
+	margin-left:0% !important; 
+	width:25%;
+	height:100%;
 	
 }
 
-
-
-
+.insta{
+	margin-top: 25%;
+	margin-left:0% !important; 
+	background-image:url(./icon1.png);
+	width:5%;
+}
+.geo{	
+	background-image:url(./icon2.png);	
+}
+.twitter{	
+	background-image:url(./icon3.png);	
+}
+.foot .right{
+	float: right;
+	margin-top: 6.5%;
+	width:35%;
+	height:30%;
+	margin-left:0% !important;
+}
+.foot .right p{
+	color:#000;	
+	line-height:;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;	
+}
+.foot .right p span{
+	font-weight: bold;
+}
